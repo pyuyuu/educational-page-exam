@@ -1,0 +1,21 @@
+#home {
+    background-image: url(./images/background.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 75vh;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+#navbar {
+    background-color: black;
+}
+
+.navbar-brand {
+    color: white;
+}
+
+.nav-link {
+    color: white;
+}

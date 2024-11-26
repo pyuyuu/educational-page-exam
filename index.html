@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S81 Mock Tech Exam</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+
+    <nav id="navbar" class="navbar sticky-top navbar-expand-lg bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand mx-5" href="#">BookHub</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#categories-section">Categories</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+    <section id="home" class="text-center container-fluid p-3">
+        <div id="welcome">
+        <h1>Welcome to BookHub</h1>
+        <div id="introduction" class="mx-5 justify-content-center mt-5">
+            <p>
+                BookHub is an educational resource hub designed to empower students, educators, and lifelong learners with a vast collection of study materials, books, and guides. Whether you’re preparing for exams, curating lesson plans, or exploring new subjects, our user-friendly platform makes learning accessible and engaging for everyone. Dive into expert-curated content, connect with a community of learners, and unlock your potential with BookHub.
+            </p>
+        </div>
+        </div>
+        <div id="featured" class="container p-3 text-center">
+            <h2 class="mt-5 mb-5">Featured Resources</h2>
+            <div class="row justify-content-center mt-5">
+                <!-- Card 1 -->
+                <div class="col-12 col-md-4 d-flex justify-content-center mb-3 mt-5">
+                    <div class="card h-100 w-100" style="width: 18rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">Python Crash Course</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">by Eric Matthes</h6>
+                            <p class="card-text">A beginner-friendly introduction to Python, covering basic programming concepts and hands-on projects to build real-world applications.</p>
+                            <a href="#" class="card-link">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 2 -->
+                <div class="col-12 col-md-4 d-flex justify-content-center mb-3 mt-5">
+                    <div class="card h-100 w-100" style="width: 18rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">Eloquent JavaScript</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">by Marijin Haverbeke</h6>
+                            <p class="card-text">A deep dive into JavaScript, focusing on both foundational concepts and advanced techniques with practical examples.</p>
+                            <a href="#" class="card-link">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 3 -->
+                <div class="col-12 col-md-4 d-flex justify-content-center mb-3 mt-5">
+                    <div class="card h-100 w-100" style="width: 18rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">You Don't Know JS</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">by Kyle Simpson</h6>
+                            <p class="card-text">A collection of books that explore JavaScript’s core concepts, making them ideal for mastering the language in-depth.</p>
+                            <a href="#" class="card-link">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>       
+    </section>
+
+    <section id="categories-section" class="container p-3">
+        <div id="categories">
+            <h2 class="text-center">Categories</h2>
+        </div>
+        <div id="resources" class="container my-5">
+            <table class="table table-striped table-bordered">
+                <thead class="table-dark">
+                    <tr class="text-center">
+                        <th>Book Title</th>
+                        <th>Author(s)</th>
+                        <th>Language/Focus</th>
+                        <th>Description</th>
+                        <th>Links</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Eloquent JavaScript</td>
+                        <td>Marijin Haverbeke</td>
+                        <td>JavaScript</td>
+                        <td>A deep dive into JavaScript, focusing on both foundational concepts and advanced techniques with practical examples.</td>
+                        <td><a href="#" class="btn btn-primary btn-sm">Learn More</a></td>
+                    </tr>
+
+                    <tr>
+                        <td>Python Crash Course</td>
+                        <td>Eric Matthes</td>
+                        <td>Python</td>
+                        <td>Beginner-friendly introduction with hands-on projects.</td>
+                        <td><a href="#" class="btn btn-primary btn-sm">Learn More</a></td>
+                    </tr>
+
+                    <tr>
+                        <td>You Don't Know JS</td>
+                        <td>Kyle Simpson</td>
+                        <td>JavaScript</td>
+                        <td>A collection of books that explore JavaScript’s core concepts, making them ideal for mastering the language in-depth.</td>
+                        <td><a href="#" class="btn btn-primary btn-sm">Learn More</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <section id="about" class="text-center container p-3">
+        <div id="mission">
+            <h2>About Us</h2>
+            <p>At BookHub, we believe that every learner deserves tools that inspire growth and curiosity. Explore our curated collections of books, digital tools, and interactive materials designed to make learning a truly rewarding experience. Let’s build your path to success—one page at a time!</p>
+        </div>
+
+        <div id="contact" class="container my-4">
+            <div class="row">
+            <div class="col-md-6 justify-content-center mb-4">
+                <h2>Contact Us</h2>
+                <div class="mb-3">
+                    <label class="form-label">Name</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Full Name">
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="mail@example.com">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="6" placeholder="Feedback"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+            <div class="col-md-6 justify-content-center mb-4">
+                <h2>Find Us</h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3860.410041055107!2d121.0411029767777!3d14.632650276287789!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b7f5db7f5e3f%3A0xe15d2d6a4453ed00!2sZuitt%20QC!5e0!3m2!1sen!2sph!4v1732580991886!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+        </div>
+    </section>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
